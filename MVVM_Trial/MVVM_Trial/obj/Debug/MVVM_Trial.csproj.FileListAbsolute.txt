@@ -1,0 +1,17 @@
+C:\DocumentsAndStuff\opt\usr\visual-studio-workspace\MVVM_Trial\MVVM_Trial\bin\Debug\MVVM_Trial.exe.config
+C:\DocumentsAndStuff\opt\usr\visual-studio-workspace\MVVM_Trial\MVVM_Trial\bin\Debug\MVVM_Trial.exe
+C:\DocumentsAndStuff\opt\usr\visual-studio-workspace\MVVM_Trial\MVVM_Trial\bin\Debug\MVVM_Trial.pdb
+C:\DocumentsAndStuff\opt\usr\visual-studio-workspace\MVVM_Trial\MVVM_Trial\obj\Debug\src\view\ListUsersView.g.cs
+C:\DocumentsAndStuff\opt\usr\visual-studio-workspace\MVVM_Trial\MVVM_Trial\obj\Debug\src\view\TextConverterView.g.cs
+C:\DocumentsAndStuff\opt\usr\visual-studio-workspace\MVVM_Trial\MVVM_Trial\obj\Debug\App.g.cs
+C:\DocumentsAndStuff\opt\usr\visual-studio-workspace\MVVM_Trial\MVVM_Trial\obj\Debug\MVVM_Trial_MarkupCompile.cache
+C:\DocumentsAndStuff\opt\usr\visual-studio-workspace\MVVM_Trial\MVVM_Trial\obj\Debug\MVVM_Trial_MarkupCompile.lref
+C:\DocumentsAndStuff\opt\usr\visual-studio-workspace\MVVM_Trial\MVVM_Trial\obj\Debug\src\view\ListUsersView.baml
+C:\DocumentsAndStuff\opt\usr\visual-studio-workspace\MVVM_Trial\MVVM_Trial\obj\Debug\src\view\TextConverterView.baml
+C:\DocumentsAndStuff\opt\usr\visual-studio-workspace\MVVM_Trial\MVVM_Trial\obj\Debug\MVVM_Trial.g.resources
+C:\DocumentsAndStuff\opt\usr\visual-studio-workspace\MVVM_Trial\MVVM_Trial\obj\Debug\MVVM_Trial.Properties.Resources.resources
+C:\DocumentsAndStuff\opt\usr\visual-studio-workspace\MVVM_Trial\MVVM_Trial\obj\Debug\MVVM_Trial.csproj.GenerateResource.cache
+C:\DocumentsAndStuff\opt\usr\visual-studio-workspace\MVVM_Trial\MVVM_Trial\obj\Debug\MVVM_Trial.csproj.CoreCompileInputs.cache
+C:\DocumentsAndStuff\opt\usr\visual-studio-workspace\MVVM_Trial\MVVM_Trial\obj\Debug\MVVM_Trial.exe
+C:\DocumentsAndStuff\opt\usr\visual-studio-workspace\MVVM_Trial\MVVM_Trial\obj\Debug\MVVM_Trial.pdb
+C:\DocumentsAndStuff\opt\usr\visual-studio-workspace\MVVM_Trial\MVVM_Trial\obj\Debug\MVVM_Trial.csprojAssemblyReference.cache
