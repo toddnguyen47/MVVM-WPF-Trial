@@ -2,7 +2,7 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:MVVM_Trial"
-             StartupUri="src/view/TextConverterView.xaml">
+             StartupUri="src/view/ListUsersView.xaml">
     <Application.Resources>
          
     </Application.Resources>

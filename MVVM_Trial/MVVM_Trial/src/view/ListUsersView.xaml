@@ -7,10 +7,16 @@
         mc:Ignorable="d"
         Title="ListUsersView" Height="450" Width="800"
         FontSize="16">
+    <Window.Resources>
+        <Style TargetType="DataGrid" x:Key="mainDataGrid">
+            <Setter Property="HorizontalAlignment" Value="Center" />
+            <Setter Property="CanUserResizeRows" Value="False" />
+            <Setter Property="BorderBrush" Value="Transparent" />
+        </Style>
+    </Window.Resources>
     <StackPanel>
-        <Grid>
+        <!--<Grid>
             <Grid.RowDefinitions>
-                <RowDefinition />
                 <RowDefinition />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
@@ -20,13 +26,18 @@
             </Grid.ColumnDefinitions>
 
             <TextBlock Text="ID" HorizontalAlignment="Center" />
-            <TextBlock Text="Name" Grid.Column="1" HorizontalAlignment="Center"/>
-            <TextBlock Text="Job Title" Grid.Column="2" HorizontalAlignment="Center"/>
+            <TextBlock Text="First Name" Grid.Column="1" HorizontalAlignment="Center"/>
+            <TextBlock Text="Last Name" Grid.Column="2" HorizontalAlignment="Center"/>
+        </Grid>-->
 
-            <TextBlock Text="{Binding Path=ID}" Grid.Row="1" Grid.Column="0" />
-            <TextBlock Text="{Binding Path=Name}" Grid.Row="1" Grid.Column="1" />
-            <TextBlock Text="{Binding Path=JobTitle}" Grid.Row="1" Grid.Column="2" />
-        </Grid>
+        <DataGrid ItemsSource="{Binding Path=ListOfPeople}" AutoGenerateColumns="False"
+                  Style="{StaticResource mainDataGrid}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding Path=Id}" />
+                <DataGridTextColumn Header="First Name" Binding="{Binding Path=FirstName}" />
+                <DataGridTextColumn Header="Last Name" Binding="{Binding Path=LastName}" />
+            </DataGrid.Columns>
+        </DataGrid>
 
         <Button x:Name="btnAddUser" HorizontalAlignment="Center">Add Users</Button>
     </StackPanel>

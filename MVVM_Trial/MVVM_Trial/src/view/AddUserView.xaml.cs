@@ -1,5 +1,4 @@
-﻿using MVVM_Trial.src.viewmodel;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,16 +15,12 @@ using System.Windows.Shapes;
 namespace MVVM_Trial.src.view
 {
     /// <summary>
-    /// Interaction logic for ListUsersView.xaml
+    /// Interaction logic for AddUserView.xaml
     /// </summary>
-    public partial class ListUsersView : Window
+    public partial class AddUserView : Window
     {
-        public ListUsersView()
+        public AddUserView()
         {
-            // Set the ViewModel for this View
-            ViewModelBase viewModel = new ListUsersViewModel();
-            this.DataContext = viewModel;
-
             InitializeComponent();
         }
     }
