@@ -9,3 +9,4 @@
 *.png binary
 *.jpeg binary
 *.jpg binary
+*.db binary
