@@ -7,7 +7,19 @@
         mc:Ignorable="d"
         Title="AddUserView" Height="450" Width="800"
         FontSize="16">
-    <StackPanel>
-        <!-- TODO -->
-    </StackPanel>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- TODO: Bind stuff! -->
+        <Label Grid.Row="0" Grid.Column="0"
+               HorizontalAlignment="Center">First Name</Label>
+        <TextBox Grid.Row="0" Grid.Column="1"></TextBox>
+    </Grid>
 </Window>

@@ -39,6 +39,7 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <Button x:Name="btnAddUser" HorizontalAlignment="Center">Add Users</Button>
+        <Button x:Name="btnAddUser" HorizontalAlignment="Center"
+                Command="{Binding Path=ShowAddUserView}">Add Users</Button>
     </StackPanel>
 </Window>
